@@ -32,7 +32,7 @@ function! ostroga#popup_create()
         \
         \ 'title': '  Jump to mark',
         \ 'border': [1, 1, 1, 1],
-        \ 'borderchars': ['┈', '⸽', '┈', '⸽', '✨', '✨', '✨', '✨'],
+        \ 'borderchars': ['─', '│', '─', '│', '┌', '┐', '┘', '└'],
         \ 'mapping': v:false,
         \ 'highlight': 'Normal',
         \ 'borderhighlight': ['Statement'],
