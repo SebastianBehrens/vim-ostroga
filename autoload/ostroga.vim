@@ -30,7 +30,7 @@ function! ostroga#popup_create()
     return popup_create(ostroga#ui#marks_to_hints(s:global_alpha_marks()), {
         \ 'filter': function('s:choose_mark'),
         \
-        \ 'title': '  Jump to mark: ',
+        \ 'title': ' Jump to mark: ',
         \ 'border': [1, 1, 1, 1],
         \ 'borderchars': ['─', '│', '─', '│', '┌', '┐', '┘', '└'],
         \ 'mapping': v:false,
